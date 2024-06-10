@@ -1,1 +1,1 @@
-import samarpangm_enc
+import samarpan1_enc
