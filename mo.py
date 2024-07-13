@@ -446,8 +446,8 @@ def api1(ids,names,passlist):
                         fbdm = device['fbdm']
                         fbfw = '1'
                         fbrv = '0'
-                        fban = 'FB4A'
-                        fbpn = 'com.facebook.katana
+                        fban = 'fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
                         ua = '[FBAN/FB4A;FBAV/'+str(random.randint(111,999))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/392.0.0.32.108;FBBV/318413147;FBDM/{density=6'+'3,width='+'1080,height='+'2340};FBLC/en_US;FBRV/269703005;FBCR/Marshmallow;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/M1903F11I;FBSV/13;FBOP/1;nullFBCA/armeabi-v7a:armeabi;]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
