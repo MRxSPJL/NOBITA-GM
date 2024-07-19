@@ -334,7 +334,7 @@ def rcrack(uid,pwx,tl):
     except:
         pass
 
-menu()
+nobita()
 
 
                     #---------THE END---------# 
